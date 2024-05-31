@@ -1,0 +1,138 @@
+[
+  {
+    "ContainingType": "FinalProject.Controllers.EnquiryLoginController",
+    "Method": "CreateEnquirer",
+    "RelativePath": "api/AddEnquirer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "FinalProject.Model.EnquiryLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EnquiryLoginController",
+    "Method": "CreateDocuments",
+    "RelativePath": "api/CreateDocuments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Aadhar",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "PanCard",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "basePhoto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "baseAadhar",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "basePanCard",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EnquiryLoginController",
+    "Method": "CreateEnquiry",
+    "RelativePath": "api/CreateEnquiry",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "FinalProject.Model.CreateEnquiry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EnquiryLoginController",
+    "Method": "GetDocuments",
+    "RelativePath": "api/GetDocuments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model1",
+        "Type": "FinalProject.Model.Emailing",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EnquiryLoginController",
+    "Method": "GetEnquirer",
+    "RelativePath": "api/GetEnquirer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "FinalProject.Model.EnquiryLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EnquiryLoginController",
+    "Method": "SaveEnquiry",
+    "RelativePath": "api/SaveEnquiry",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "FinalProject.Model.CreateEnquiry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EnquiryLoginController",
+    "Method": "Test",
+    "RelativePath": "api/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
